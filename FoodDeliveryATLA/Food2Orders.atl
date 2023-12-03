@@ -1,0 +1,43 @@
+module Food2Order;
+
+create OUT : OrderHistory from IN : FoodDelivery;
+
+rule Customer2Record {
+  from 
+    c : FoodDelivery!Customer
+  to
+    r : OrderHistory!CustomerRecord (
+        name <- c.name,
+        address <- c.address
+    )
+}
+
+rule Dish2DishRecord {
+  from
+    d : FoodDelivery!Dish
+  to 
+    r : OrderHistory!OrderItemRecord (
+        dish <- d.name,
+        quantity <- 1  
+    )
+}
+
+rule Order2OrderRecord {
+  from
+    o : FoodDelivery!Order
+  to
+    r : OrderHistory!OrderRecord (
+        customer <- o.customer,
+        status <- o.status
+    )
+}
+
+rule OrderItem2ItemRecord {
+  from 
+    i : FoodDelivery!OrderItem
+  to
+    r : OrderHistory!OrderItemRecord (
+        dish <- i.dish.name,
+        quantity <- i.quantity
+    )
+}

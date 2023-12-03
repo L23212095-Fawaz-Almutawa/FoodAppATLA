@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OrderHistory xmlns="http://example.com/history">
+
+  <customerRecord name="Jane Doe" address="123 Main St"/>
+   
+  <orderRecord customer="//@customerRecord.0" status="Delivered">
+    <items dish="Pizza" quantity="1"/> 
+  </orderRecord>
+
+</OrderHistory>

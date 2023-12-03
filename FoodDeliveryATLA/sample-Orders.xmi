@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FoodDelivery xmlns="http://example.com/food">
+  
+  <customers name="Jane Doe" address="123 Main St"/> 
+  
+  <orders status="Delivered">
+    <items dish="Pizza" quantity="1"/>
+  </orders>
+
+  <menu>
+    <dishes name="Pizza" price="12.99"/>
+  </menu>
+  
+</FoodDelivery>
