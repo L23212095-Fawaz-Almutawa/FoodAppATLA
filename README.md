@@ -8,7 +8,6 @@ A Food App scenario model Transformation and code generation has been chosen. Th
 2- Master the methods for model-to-code generation using Acceleo or Xtend plugins
 ## Model Transformation (ATL) Part:
 The first part is to perform a model transformation of the chosen scenario. A simplified version of UML2 activity diagram to a UML State machine diagram.
-![image](https://github.com/L23212095-Fawaz-Almutawa/FoodAppATLA/assets/148682608/0b91343e-b73e-4abc-805f-a8568c6cbc0a)
 ![image](https://github.com/L23212095-Fawaz-Almutawa/FoodAppATLA/assets/148682608/5dbe5b67-38ca-4c0a-b1da-c24ee00bd30b)
 <img width="617" alt="image" src="https://github.com/L23212095-Fawaz-Almutawa/FoodAppATLA/assets/148682608/9188331a-f3e3-43b1-b731-67243426e984">
 <img width="788" alt="image" src="https://github.com/L23212095-Fawaz-Almutawa/FoodAppATLA/assets/148682608/8aa05a4b-888c-4f38-ba8a-99ecbcc7977b">
