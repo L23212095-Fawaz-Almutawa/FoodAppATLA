@@ -17,7 +17,7 @@ The first part is to perform a model transformation of the chosen scenario. A si
 ## Code Generation (Acceleo) Part:
 For the secon part, a code generation in a scenario of the chosen model. A Java code for the UML activity diagrams to generate Java code class diagrams that include the OOP principles. However, due to lack of understanding and inexperience, this task was unable to be completed. 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 ## Documentation
 
 [RM2PT Documentation - by RM2PT](https://rm2pt.com/doc/dev/eclipsemda)
