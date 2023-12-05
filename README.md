@@ -1,4 +1,4 @@
-
+![image](https://github.com/L23212095-Fawaz-Almutawa/FoodAppATLA/assets/148682608/0b91343e-b73e-4abc-805f-a8568c6cbc0a)
 # Model Transformation and Code Generation - Using RM2PT
 
 A Food App scenario model Transformation and code generation has been chosen. These are the objectives of lab (4):
@@ -9,9 +9,14 @@ A Food App scenario model Transformation and code generation has been chosen. Th
 ## Model Transformation (ATL) Part:
 The first part is to perform a model transformation of the chosen scenario. A simplified version of UML2 activity diagram to a UML State machine diagram.
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/L23212095-Fawaz-Almutawa/FoodAppATLA/assets/148682608/5dbe5b67-38ca-4c0a-b1da-c24ee00bd30b)
+<img width="617" alt="image" src="https://github.com/L23212095-Fawaz-Almutawa/FoodAppATLA/assets/148682608/9188331a-f3e3-43b1-b731-67243426e984">
+<img width="788" alt="image" src="https://github.com/L23212095-Fawaz-Almutawa/FoodAppATLA/assets/148682608/8aa05a4b-888c-4f38-ba8a-99ecbcc7977b">
+<img width="1009" alt="image" src="https://github.com/L23212095-Fawaz-Almutawa/FoodAppATLA/assets/148682608/cabfe1d7-73cc-4a20-85e0-d32b9dd1f36f">
+
+
 ## Code Generation (Acceleo) Part:
-For the secon part, a code generation in a scenario of the chosen model. A Java code for the UML activity diagrams to generate Java code class diagrams that include the OOP principles.
+For the secon part, a code generation in a scenario of the chosen model. A Java code for the UML activity diagrams to generate Java code class diagrams that include the OOP principles. However, due to lack of understanding and inexperience, this task was unable to be completed. 
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 ## Documentation
