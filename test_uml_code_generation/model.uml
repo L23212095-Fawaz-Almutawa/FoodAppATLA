@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-gUV8Jg1Ee6XFdjU_AZGdA" name="NewModel">
+  <packagedElement xmi:type="uml:Package" xmi:id="_S67AIIPSEeGsVZAesWUgWw" name="org">
+    <packagedElement xmi:type="uml:Package" xmi:id="_T8vpgIPSEeGsVZAesWUgWw" name="RM2PT">
+      <packagedElement xmi:type="uml:Package" xmi:id="_UUdl8IPSEeGsVZAesWUgWw" name="acceleo">
+        <packagedElement xmi:type="uml:Package" xmi:id="_U09q8IPSEeGsVZAesWUgWw" name="foodapp">
+          <packagedElement xmi:type="uml:Package" xmi:id="_VmywgIPSEeGsVZAesWUgWw" name="umltojava">
+            <packagedElement xmi:type="uml:Package" xmi:id="_aB1_gIPSEeGsVZAesWUgWw" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_EuERoJg2Ee6XFdjU_AZGdA" name="Customer" visibility="public">
+    <ownedAttribute xmi:id="_SuffcJg2Ee6XFdjU_AZGdA" name="name" type="_ZpHIMJg2Ee6XFdjU_AZGdA"/>
+    <ownedAttribute xmi:id="_SxvnwJg2Ee6XFdjU_AZGdA" name="address" type="_gKnGUJg2Ee6XFdjU_AZGdA"/>
+    <ownedAttribute xmi:id="_S08swJg2Ee6XFdjU_AZGdA" name="number" type="_isAsEJg2Ee6XFdjU_AZGdA"/>
+    <ownedOperation xmi:id="_jBEOsJg5Ee6XFdjU_AZGdA" name="makeOrder">
+        <ownedParameter xmi:id="_-VHDcJ6QEeGdnpRmAZha-dQ" type="_VK2hkJ6QEeGdnpRmAZh-dQ" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_FT2fQJg2Ee6XFdjU_AZGdA" name="Order" visibility="public">
+    <ownedAttribute xmi:id="_oD3hkJg2Ee6XFdjU_AZGdA" name="quantity" type="_sc7zkJg2Ee6XFdjU_AZGdA"/>
+    <ownedAttribute xmi:id="_oGKnoJg2Ee6XFdjU_AZGdA" name="foodType" type="_vPYtEJg2Ee6XFdjU_AZGdA"/>
+    <ownedAttribute xmi:id="_oIx2wJg2Ee6XFdjU_AZGdA" name="price" type="_xmZnwJg2Ee6XFdjU_AZGdA"/>
+    <ownedOperation xmi:id="_qiJagJg5Ee6XFdjU_AZGdA" name="placeOrder">
+    	<ownedParameter xmi:id="_-VHDcJ6QEeGdnpRmAZha-dQ" type="_VK2hkJ6QEeGdnpRmAZh-dQ" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Fs-w8Jg2Ee6XFdjU_AZGdA" name="DeliveryDriver" visibility="public">
+    <ownedAttribute xmi:id="_1AQfgJg2Ee6XFdjU_AZGdA" name="name" type="_2kTFIJg2Ee6XFdjU_AZGdA"/>
+    <ownedAttribute xmi:id="_1BkuIJg2Ee6XFdjU_AZGdA" name="vehicle" type="_53O1gJg2Ee6XFdjU_AZGdA"/>
+    <ownedOperation xmi:id="_pNX_8Jg5Ee6XFdjU_AZGdA" name="deliverFood">
+    	<ownedParameter xmi:id="_-VHDcJ6QEeGdnpRmAZha-dQ" type="_SoMXkJ6QEeGdnpRmAZh-dQ" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GGSo0Jg2Ee6XFdjU_AZGdA" name="FoodApp" visibility="public">
+    <ownedAttribute xmi:id="_a9M7YJg4Ee6XFdjU_AZGdA" name="username" type="_cZesIJg4Ee6XFdjU_AZGdA"/>
+    <ownedAttribute xmi:id="_a-8AwJg4Ee6XFdjU_AZGdA" name="password" type="_e6AIIJg4Ee6XFdjU_AZGdA"/>
+    <ownedOperation xmi:id="_iEZnkJg4Ee6XFdjU_AZGdA" name="login">
+      <ownedParameter xmi:id="_l35uYJg4Ee6XFdjU_AZGdA" name="username" type="_n5d9gJg4Ee6XFdjU_AZGdA" direction="return"/>
+      <ownedParameter xmi:id="_mPz4EJg4Ee6XFdjU_AZGdA" name="password" type="_wwdMUJg4Ee6XFdjU_AZGdA" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GzjXcJg2Ee6XFdjU_AZGdA" name="Payment" visibility="public">
+    <ownedAttribute xmi:id="_8DM90Jg2Ee6XFdjU_AZGdA" name="type" type="_90NocJg2Ee6XFdjU_AZGdA"/>
+    <ownedAttribute xmi:id="_8EnTEJg2Ee6XFdjU_AZGdA" name="amount" type="_F2GbQJg3Ee6XFdjU_AZGdA"/>
+    <ownedOperation xmi:id="_m4-7cJg5Ee6XFdjU_AZGdA" name="payment">
+    	<ownedParameter xmi:id="_-VHDcJ6QEeGdnpRmAZha-dQ" type="_WcB1kJ6QEeGdnpRmAZh-dQ" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ZpHIMJg2Ee6XFdjU_AZGdA" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_gKnGUJg2Ee6XFdjU_AZGdA" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_isAsEJg2Ee6XFdjU_AZGdA" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_sc7zkJg2Ee6XFdjU_AZGdA" name="Integer"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_vPYtEJg2Ee6XFdjU_AZGdA" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_xmZnwJg2Ee6XFdjU_AZGdA" name="Integer"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_2kTFIJg2Ee6XFdjU_AZGdA" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_53O1gJg2Ee6XFdjU_AZGdA" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_90NocJg2Ee6XFdjU_AZGdA" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_F2GbQJg3Ee6XFdjU_AZGdA" name="Integer"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Hd5qEJg4Ee6XFdjU_AZGdA" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_cZesIJg4Ee6XFdjU_AZGdA" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_e6AIIJg4Ee6XFdjU_AZGdA" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_n5d9gJg4Ee6XFdjU_AZGdA" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_wwdMUJg4Ee6XFdjU_AZGdA" name="String"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_y80gwJg5Ee6XFdjU_AZGdA" memberEnd="_y80gwZg5Ee6XFdjU_AZGdA _y80gxJg5Ee6XFdjU_AZGdA" navigableOwnedEnd="_y80gwZg5Ee6XFdjU_AZGdA _y80gxJg5Ee6XFdjU_AZGdA">
+    <ownedEnd xmi:id="_y80gwZg5Ee6XFdjU_AZGdA" name="foodApps" type="_GGSo0Jg2Ee6XFdjU_AZGdA" association="_y80gwJg5Ee6XFdjU_AZGdA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y80gwpg5Ee6XFdjU_AZGdA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y80gw5g5Ee6XFdjU_AZGdA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_y80gxJg5Ee6XFdjU_AZGdA" name="customers" type="_EuERoJg2Ee6XFdjU_AZGdA" aggregation="composite" association="_y80gwJg5Ee6XFdjU_AZGdA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y80gxZg5Ee6XFdjU_AZGdA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y80gxpg5Ee6XFdjU_AZGdA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_46KB4Jg5Ee6XFdjU_AZGdA" memberEnd="_46KB4Zg5Ee6XFdjU_AZGdA _46KB5Jg5Ee6XFdjU_AZGdA" navigableOwnedEnd="_46KB4Zg5Ee6XFdjU_AZGdA _46KB5Jg5Ee6XFdjU_AZGdA">
+    <ownedEnd xmi:id="_46KB4Zg5Ee6XFdjU_AZGdA" name="customers" type="_EuERoJg2Ee6XFdjU_AZGdA" association="_46KB4Jg5Ee6XFdjU_AZGdA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_46KB4pg5Ee6XFdjU_AZGdA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_46KB45g5Ee6XFdjU_AZGdA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_46KB5Jg5Ee6XFdjU_AZGdA" name="orders" type="_FT2fQJg2Ee6XFdjU_AZGdA" association="_46KB4Jg5Ee6XFdjU_AZGdA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_46KB5Zg5Ee6XFdjU_AZGdA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_46KB5pg5Ee6XFdjU_AZGdA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CFZCYJg6Ee6XFdjU_AZGdA" memberEnd="_CFZCYZg6Ee6XFdjU_AZGdA _CFZCZJg6Ee6XFdjU_AZGdA" navigableOwnedEnd="_CFZCYZg6Ee6XFdjU_AZGdA _CFZCZJg6Ee6XFdjU_AZGdA">
+    <ownedEnd xmi:id="_CFZCYZg6Ee6XFdjU_AZGdA" name="customers" type="_EuERoJg2Ee6XFdjU_AZGdA" association="_CFZCYJg6Ee6XFdjU_AZGdA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CFZCYpg6Ee6XFdjU_AZGdA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CFZCY5g6Ee6XFdjU_AZGdA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_CFZCZJg6Ee6XFdjU_AZGdA" name="payments" type="_GzjXcJg2Ee6XFdjU_AZGdA" association="_CFZCYJg6Ee6XFdjU_AZGdA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CFZCZZg6Ee6XFdjU_AZGdA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CFZCZpg6Ee6XFdjU_AZGdA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FOW-cJg6Ee6XFdjU_AZGdA" memberEnd="_FOW-cZg6Ee6XFdjU_AZGdA _FOW-dJg6Ee6XFdjU_AZGdA" navigableOwnedEnd="_FOW-cZg6Ee6XFdjU_AZGdA _FOW-dJg6Ee6XFdjU_AZGdA">
+    <ownedEnd xmi:id="_FOW-cZg6Ee6XFdjU_AZGdA" name="customers" type="_EuERoJg2Ee6XFdjU_AZGdA" association="_FOW-cJg6Ee6XFdjU_AZGdA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FOW-cpg6Ee6XFdjU_AZGdA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FOW-c5g6Ee6XFdjU_AZGdA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_FOW-dJg6Ee6XFdjU_AZGdA" name="deliveryDrivers" type="_Fs-w8Jg2Ee6XFdjU_AZGdA" association="_FOW-cJg6Ee6XFdjU_AZGdA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FOW-dZg6Ee6XFdjU_AZGdA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FOW-dpg6Ee6XFdjU_AZGdA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JMkgcJg6Ee6XFdjU_AZGdA" memberEnd="_JMkgcZg6Ee6XFdjU_AZGdA _JMkgdJg6Ee6XFdjU_AZGdA" navigableOwnedEnd="_JMkgcZg6Ee6XFdjU_AZGdA _JMkgdJg6Ee6XFdjU_AZGdA">
+    <ownedEnd xmi:id="_JMkgcZg6Ee6XFdjU_AZGdA" name="orders" type="_FT2fQJg2Ee6XFdjU_AZGdA" association="_JMkgcJg6Ee6XFdjU_AZGdA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JMkgcpg6Ee6XFdjU_AZGdA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JMkgc5g6Ee6XFdjU_AZGdA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_JMkgdJg6Ee6XFdjU_AZGdA" name="payments" type="_GzjXcJg2Ee6XFdjU_AZGdA" association="_JMkgcJg6Ee6XFdjU_AZGdA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JMkgdZg6Ee6XFdjU_AZGdA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JMkgdpg6Ee6XFdjU_AZGdA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+              </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_SoMXkJ6QEeGdnpRmAZh-dQ" name="Date"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_VK2hkJ6QEeGdnpRmAZh-dQ" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_WcB1kJ6QEeGdnpRmAZh-dQ" name="Boolean"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_YGTmEJ6QEeGdnpRmAZh-dQ" name="Integer"/>
+</uml:Model>
