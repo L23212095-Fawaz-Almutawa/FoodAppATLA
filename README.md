@@ -15,7 +15,15 @@ The first part is to perform a model transformation of the chosen scenario. A si
 
 
 ## Code Generation (Acceleo) Part:
-For the secon part, a code generation in a scenario of the chosen model. A Java code for the UML activity diagrams to generate Java code class diagrams that include the OOP principles. However, due to lack of understanding and inexperience, this task was unable to be completed. 
+For the secon part, a code generation in a scenario of the chosen model. A Java code for the UML activity diagrams to generate Java code class diagrams that include the OOP principles. Generation of the module from the UML model. Here, the manifest file is edited and run to generate the classes in Java code. The first step was to create a new simplified UML of my project using UMLDesigner by Eclipse. Then, using the UML the code was generated using Acceleo. This gave the structure to automatically generate the Java code such as methods and variables (UML to Java). 
+
+![image](https://github.com/L23212095-Fawaz-Almutawa/FoodAppATLA/assets/148682608/d07d1b72-2568-45d1-a850-8cf4e633ead8)
+
+![image](https://github.com/L23212095-Fawaz-Almutawa/FoodAppATLA/assets/148682608/9b9694a0-218d-4b40-a5fa-cad28b194aaa)
+
+![image](https://github.com/L23212095-Fawaz-Almutawa/FoodAppATLA/assets/148682608/c1049c9e-a782-4e1f-916c-c749756c6855)
+
+
 
 
 ## Documentation
